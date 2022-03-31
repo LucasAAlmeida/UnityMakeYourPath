@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaa77b7b48472ef46bb05d9219b7bb83, type: 3}
+  m_Name: B1- Premature Battle
+  m_EditorClassIdentifier: 
+  storyText: 'In half an hour, you catch up to the goblins. You see that 5 survived
+    the attack, not including the bigger goblinoid, probably the leader. Seeing you,
+    3 of the goblins charge at you.
+
+
+
+    1- Focus on defense!
+
+    2- Focus on
+    attack!
+
+    3- Run away!'
+  nextStates:
+  - {fileID: 11400000, guid: 93a6fd4ad9160a14d8b962ec002d3e6e, type: 2}
+  - {fileID: 11400000, guid: 4c3e00d9053675b40932caae660b2b4b, type: 2}
+  - {fileID: 11400000, guid: 4c3e00d9053675b40932caae660b2b4b, type: 2}

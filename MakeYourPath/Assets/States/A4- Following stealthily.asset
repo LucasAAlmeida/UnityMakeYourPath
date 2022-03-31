@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaa77b7b48472ef46bb05d9219b7bb83, type: 3}
+  m_Name: A4- Following stealthily
+  m_EditorClassIdentifier: 
+  storyText: 'You walk north, following the footsteps of goblins and the clear marking
+    of the merchant''s body being dragged. In less than a day''s walk, you veer into
+    the forest, and soon after, you come upon a cave.
+
+    
+
+    1- Fearing for
+    the merchant''s life, light a torch and go inside the cave.
+
+    2- Throw a
+    rock to make noise so you can ambush the goblins'
+  nextStates:
+  - {fileID: 11400000, guid: acb4e14d2e45439449157c4773fff466, type: 2}
+  - {fileID: 11400000, guid: 0de7a0242fff9fe43b0e65b410a61934, type: 2}

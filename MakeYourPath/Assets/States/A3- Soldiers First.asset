@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaa77b7b48472ef46bb05d9219b7bb83, type: 3}
+  m_Name: A3- Soldiers First
+  m_EditorClassIdentifier: 
+  storyText: 'After a minute calling around, one trembling voice answers. The soldier
+    is in his last moments, a terrible slashing wound in his chest pump out his life
+    blood.
+
+    You hold his hand, trying to comfort him, and he whispers "The goblins
+    went to the north... I fought the leader..." *coughs blood* "I managed to hit
+    him on his right leg, but it wasn''t enough... Follow the goblins... Save the
+    merchant..."
+
+    He dies in your arms.
+
+
+    1- Follow north, sword in hand.
+
+    2-
+    No way, this is above my paycheck. Flee south.'
+  nextStates:
+  - {fileID: 11400000, guid: 5ba53d0f074c13e42915f44b7dcd4db2, type: 2}
+  - {fileID: 11400000, guid: e6a0c99db1dd3804ab71467157c6251c, type: 2}

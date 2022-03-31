@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaa77b7b48472ef46bb05d9219b7bb83, type: 3}
+  m_Name: A5- Make some noise
+  m_EditorClassIdentifier: 
+  storyText: '3 goblins go out to see the reason for this commotion, and you quickly
+    dispatch them from behind with a swift slash of your sword.
+
+    
+
+    1- Go
+    inside the cave
+
+    2- Do the same tactic again, make some noise to attract
+    goblins.'
+  nextStates:
+  - {fileID: 11400000, guid: 2c018cb6f35eb1f49a78c05102683229, type: 2}
+  - {fileID: 11400000, guid: 5496039e3bd802b47b4063cba888559a, type: 2}

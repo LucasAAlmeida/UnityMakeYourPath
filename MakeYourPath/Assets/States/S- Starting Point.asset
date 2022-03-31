@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaa77b7b48472ef46bb05d9219b7bb83, type: 3}
+  m_Name: S- Starting Point
+  m_EditorClassIdentifier: 
+  storyText: 'Welcome to the Make Your Path game!
+
+
+    You are a soldier, one of
+    several that were hired to protect a merchant from one town to the other.
+
+    One
+    day like any other in your journey, a bunch of goblins sprung a trap and your
+    fellow soldiers fell one after the other.
+
+    You yourself fought brilliantly,
+    sometimes fending off 2 oponents at the same time.
+
+    However, one goblin caught
+    you from behind and clubbed your head, instantly knocking you out...
+
+
+    You
+    will be faced with decisions, which you can make by using the 1, 2 or 3 keys
+    in your keyboard.
+
+
+    Can you make it to the end alive and well? Good luck!
+
+
+    1-
+    Continue'
+  nextStates:
+  - {fileID: 11400000, guid: 7c78d5d2d79789748ad761c8a68036df, type: 2}
