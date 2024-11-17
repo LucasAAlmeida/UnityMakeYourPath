@@ -19,6 +19,9 @@ public class GameManager : MonoBehaviour
         ManageState();
     }
 
+    /// <summary>
+    /// Handles the switching of states
+    /// </summary>
     private void ManageState()
     {
         var nextStates = state.GetNextStates();
@@ -34,6 +37,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Makes sure that the player's input is valid for the current state
+    /// </summary>
+    /// <param name="nextStates"></param>
+    /// <returns></returns>
     private static bool AcceptedInputPressed(State[] nextStates)
     {
         return Input.GetKeyDown(KeyCode.Alpha1)
